@@ -4,11 +4,30 @@ Animated Bubble  Bottom Navigation
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+Add the plugin (pub coming soon):
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```yaml
+dependencies:
+  ...
+  animatedbubblebottomnav: ^0.0.1
+```
+
+
+
+## Basic Usage
+
+Adding the widget
+```dart
+  @override
+  Widget build(BuildContext context) {
+    return BottomBar(
+      iconArray: [ 'assets/images/icons/icon-home.png', 'assets/images/icons/icon-category.png',
+        'assets/images/icons/icon-search.png', 'assets/images/icons/icon-cart.png','assets/images/icons/icon-user.png'],
+      screenArray: [Home(),Category_(),Search(),Cart(),Profile()],
+      /*bubblePrimaryColor: Colors.black87,
+      bubbleSecondaryColor: Colors.deepOrange,
+      circleEndColor: Colors.deepPurple,
+      circleStartColor: Colors.green,*/
+    );
+  }
+```

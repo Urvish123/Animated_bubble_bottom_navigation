@@ -1,8 +1,8 @@
 name: animatedbubblebottomnav
 description: Animated Bubble  Bottom Navigation 
 version: 0.0.1
-author:
-homepage:
+author: Urvish Jani <urvish.jani@hexagoninfosoft.com>
+homepage: https://github.com/Urvish123/Bubble_Bottom_Navigation_Example
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
