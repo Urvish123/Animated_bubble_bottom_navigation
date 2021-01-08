@@ -2,7 +2,7 @@
 
 Animated Bubble  Bottom Navigation 
 
-
+![Fancy Gif](https://github.com/Urvish123/Animated_bubble_bottom_navigation/blob/main/bottom_vidg.gif "Fancy Gif")
 
 ## Getting Started
 
